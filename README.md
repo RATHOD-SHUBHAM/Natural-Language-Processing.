@@ -30,6 +30,7 @@ The Project folder contains a complete project where we use various machine lear
       4] Stock Sentiment Analysis.
       5] Fake News Classifer.
       6] Stock Market Prediction And Forecasting Using Stacked LSTM.
+      7] Chat Bot.
 
      
 # Natural-Language-Processing
