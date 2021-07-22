@@ -93,9 +93,13 @@ So if i take this corpus and apply LDA on it. As a example, model might output s
 
 Then i would get this as output:
 Document 1 : 100% Topic A.
+
 Document 2 : 100% Topic B.
+
 Document 3 : 100% Topic B.
+
 Document 4 : 100% Topic A.
+
 Document 5 : 60% Topic A, 40% Topic B.
 
 Now if a take a look at topic in detail, we can say that
@@ -104,24 +108,34 @@ Topic B: 60% pup, 40% kitten, 30% dog, 15% cute..
 
 Now that we know what our topic is about we can know that
 Document 1 is talking about Food.
+
 Document 2 is talking about Animals.
+
 Document 3 is talking about Animals.
+
 Document 4 is talking about Food.
+
 Document 5 is talking about Food + Animals.
 
 # Topic Modelling Using LDA in Python:
 Task: 
 Given the abstract and title for a set of research articles, predict the topics for each article included in the test set.
+
 The Data:
 I have used Kaggle Topic Modeling for Research Articles data set.
+
 Data Pre-processing:
     * Check for missing values.
     * Toeknization: Split the text into sentences and the sentences into words. Convert the upper case into lower case and remove the punctuations.
     * Remove stop Words.
     * Lemmatizing: Words are transformed to original form.
+    
 Word Vectorizer:
     * Count Vectorizer.
     * TF - IDF.
+    
 Running LDA using TF-IDF.
+
 Performance Evaluation.
+
 Testing Model on unseen document.
