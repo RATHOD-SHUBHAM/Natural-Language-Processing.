@@ -125,13 +125,19 @@ The Data:
 I have used Kaggle Topic Modeling for Research Articles data set.
 
 Data Pre-processing:
+
     * Check for missing values.
+    
     * Toeknization: Split the text into sentences and the sentences into words. Convert the upper case into lower case and remove the punctuations.
+    
     * Remove stop Words.
+    
     * Lemmatizing: Words are transformed to original form.
     
 Word Vectorizer:
+
     * Count Vectorizer.
+    
     * TF - IDF.
     
 Running LDA using TF-IDF.
