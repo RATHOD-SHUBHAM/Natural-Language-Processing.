@@ -31,6 +31,7 @@ The Project folder contains a complete project where we use various machine lear
       5] Fake News Classifer.
       6] Stock Market Prediction And Forecasting Using Stacked LSTM.
       7] Chat Bot.
+      8] Given the abstract and title for a set of research articles, predict the topics for each article included in the test set.
 
      
 # Natural-Language-Processing
