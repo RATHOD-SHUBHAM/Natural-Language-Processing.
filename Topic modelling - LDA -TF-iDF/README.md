@@ -146,3 +146,4 @@ Performance Evaluation.
 
 Testing Model on unseen document.
 
+# Check out my [article](https://www.linkedin.com/pulse/introduction-topic-modeling-latent-dirichlet-lda-natural-shankar/) for detailed explanation.
